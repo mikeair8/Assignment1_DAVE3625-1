@@ -18,7 +18,7 @@ data=pd.read_csv("RIKTIG DATA SET0.1.csv")
 
 #1.2 Apply feature engineering on them in Python.
 
-#Some values in the last column were negative even though thats no possible
+#Some values in the last feature were negative even though thats not possible considering that its about amount of passengers on board
 #therefore i did some feature engineering to just change the value from -x to x
 
 kolonne1 = data["Passasjerer_Ombord,"]
